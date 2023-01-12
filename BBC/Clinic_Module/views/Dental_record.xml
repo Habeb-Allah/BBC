@@ -1,0 +1,65 @@
+<odoo>
+    <data>
+         <record id="action_dental_record" model="ir.actions.act_window">
+             <field name="name">Dental Record</field>
+             <field name="res_model">dental.record</field>
+             <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+        <record id="view_dental_record_form" model="ir.ui.view">
+            <field name="name">Dental Record</field>
+            <field name="model">dental.record</field>
+            <field name="arch" type="xml">
+                <form string="Dental Record">
+                    <sheet>
+<!--                        <div class="oe_title">-->
+<!--                            <h1>-->
+<!--                                -->
+<!--                            </h1>-->
+<!--                        </div>-->
+                        <group>
+                            <field name="patient_id"/>
+                            <field name="last_vist_date"/>
+                            <field name="chief_complaint" />
+                            <field name="check1"/>
+                            <field name="Other" attrs="{'invisible':[('check1','=',False)],'required':[('check1','=',True)]}"/>
+                             <field name="medical_history"/>
+                             <field name="check2"/>
+                             <field name="Other_2" attrs="{'invisible':[('check2','=',False)],'required':[('check2','=',True)]}"/>
+                            <field name="previous_dental_histo"/>
+                            <field name="check3"/>
+                            <field name="Other_3" attrs="{'invisible':[('check3','=',False)],'required':[('check3','=',True)]}"/>
+
+                        </group>
+                          <group>
+                                <field name="x_RAY" widget="image" />
+                                <field name="comment_x_RAY"/>
+                                <field name="provisional_dlagnosis"/>
+                                <field name="investigations" />
+                                <field name="dlagnosis"/>
+                                <field name="treatmentplan"/>
+                                <field name="procedure"/>
+                                <field name="next_applointment"/>
+                                <field name="comments"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+     <record id="view_dental_record_view_tree" model="ir.ui.view">
+        <field name="name">Dental Record</field>
+        <field name="model">dental.record</field>
+        <field name="arch" type="xml">
+            <tree string="Dental Record">
+               <field name="patient_id"/>
+                <field name="last_vist_date"/>
+                 <field name="next_applointment"/>
+            </tree>
+        </field>
+        </record>
+
+    </data>
+</odoo>

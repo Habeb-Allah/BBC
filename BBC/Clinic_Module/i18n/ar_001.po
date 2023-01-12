@@ -1,0 +1,1600 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* cubes_beauty_center
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-06 17:10+0000\n"
+"PO-Revision-Date: 2023-01-06 17:10+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: cubes_beauty_center
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.appointment_info_form_view
+msgid "<span>hours</span>"
+msgstr "ساعة"
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__patient_info__blood_type__ab
+msgid "AB"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__property_account_payable_id
+msgid "Account Payable"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__property_account_receivable_id
+msgid "Account Receivable"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__account_represented_company_ids
+msgid "Account Represented Company"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__active
+msgid "Active"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__active_lang_count
+msgid "Active Lang Count"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__additional_info
+msgid "Additional info"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__type
+msgid "Address Type"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_appointment_info__allday
+msgid "All Day"
+msgstr "طوال اليوم"
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__lang
+msgid ""
+"All the emails and documents sent to this contact will be translated in this"
+" language."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_appointment_info__name
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_sale_order__appointment_id
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_sessions_info__appointment_id
+msgid "Appointment"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.actions.act_window,name:cubes_beauty_center.action_appointment_info
+#: model:ir.ui.menu,name:cubes_beauty_center.main_menu_appointment
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.appointment_info_calendar_view
+msgid "Appointments"
+msgstr "المواعيد"
+
+#. module: cubes_beauty_center
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.appointment_info_tree_view
+msgid "Appointments Information"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__avatar_1920
+msgid "Avatar"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__avatar_1024
+msgid "Avatar 1024"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__avatar_128
+msgid "Avatar 128"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__avatar_256
+msgid "Avatar 256"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__avatar_512
+msgid "Avatar 512"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__bank_account_count
+msgid "Bank"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__bank_ids
+msgid "Banks"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__barcode
+msgid "Barcode"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.ui.menu,name:cubes_beauty_center.main_menu_beauty_center
+msgid "Beauty Center Management"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__is_blacklisted
+msgid "Blacklist"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__mobile_blacklisted
+msgid "Blacklisted Phone Is Mobile"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__phone_blacklisted
+msgid "Blacklisted Phone is Phone"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__message_bounce
+msgid "Bounce"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.doctor_schedule_wizard_form_wizard
+msgid "Cancel"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__channel_ids
+msgid "Channels"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__employee
+msgid "Check this box if this contact is an Employee."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__city
+msgid "City"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__color
+msgid "Color Index"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__commercial_partner_id
+msgid "Commercial Entity"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__ref_company_ids
+msgid "Companies that refers to partner"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__company_id
+msgid "Company"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__company_name
+msgid "Company Name"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__commercial_company_name
+msgid "Company Name Entity"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__company_type
+msgid "Company Type"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__partner_gid
+msgid "Company database ID"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__contact_address
+msgid "Complete Address"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__child_ids
+msgid "Contact"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__contact_address_complete
+msgid "Contact Address Complete"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__message_bounce
+msgid "Counter of the number of bounced emails for this contact"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__country_id
+msgid "Country"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__country_code
+msgid "Country Code"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_appointment_info__create_uid
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_info__create_uid
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_line_wizard__create_uid
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_wizard__create_uid
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_working_schedule__create_uid
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__create_uid
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_sessions_info__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_appointment_info__create_date
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_info__create_date
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_line_wizard__create_date
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_wizard__create_date
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_working_schedule__create_date
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__create_date
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_sessions_info__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__credit_limit
+msgid "Credit Limit"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__currency_id
+msgid "Currency"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__property_payment_term_id
+msgid "Customer Payment Terms"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__customer_rank
+msgid "Customer Rank"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__date
+msgid "Date"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_sessions_info__date_sessions
+msgid "Date Sessions"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.constraint,message:cubes_beauty_center.constraint_sessions_info_date_sessions_unique
+msgid "Date sessions already exists in this order"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__trust
+msgid "Degree of trust you have in this debtor"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_sessions_info__description_sessions
+msgid "Description"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_appointment_info__display_name
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_info__display_name
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_line_wizard__display_name
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_wizard__display_name
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_working_schedule__display_name
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__display_name
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_sessions_info__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_wizard__doctor_id
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_working_schedule__doctor_id
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.doctor_info_form_view
+msgid "Doctor"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_line_wizard__doctor_schedual_id
+msgid "Doctor Schedual"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.actions.act_window,name:cubes_beauty_center.action_doctor_info
+#: model:ir.ui.menu,name:cubes_beauty_center.main_menu_doctor
+msgid "Doctors"
+msgstr "الاطباء"
+
+#. module: cubes_beauty_center
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.doctor_info_tree_view
+msgid "Doctors Information"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.appointment_info_form_view
+msgid "Duration"
+msgstr "المدة"
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_appointment_info__duration
+msgid "Duration (Hours)"
+msgstr "مدة المقابلة"
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__partner_share
+msgid ""
+"Either customer (not a user), either shared user. Indicated the current "
+"partner is a customer without access or with a limited access created for "
+"sharing data."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__email
+msgid "Email"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model,name:cubes_beauty_center.model_hr_employee
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__employee
+msgid "Employee"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__employee_ids
+msgid "Employees"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__employees_count
+msgid "Employees Count"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_appointment_info__stop_date
+msgid "End Date"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.appointment_info_form_view
+msgid "Ending At"
+msgstr "تاريخ النهاية"
+
+#. module: cubes_beauty_center
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.appointment_info_form_view
+msgid "Ending at"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_appointment_info__display_time
+msgid "Event Time"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__phone_sanitized
+msgid ""
+"Field used to store sanitized phone number. Helps speeding up searches and "
+"comparisons."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__property_account_position_id
+msgid "Fiscal Position"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__followup_level
+msgid "Follow-up Level"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__payment_responsible_id
+msgid "Follow-up Responsible"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__followup_status
+msgid "Follow-up Status"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__email_formatted
+msgid "Format email address \"Name <email@domain>\""
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__email_formatted
+msgid "Formatted Email"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__partner_latitude
+msgid "Geo Latitude"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__partner_longitude
+msgid "Geo Longitude"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.sessions_info_search_view
+msgid "Group By"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__has_unreconciled_entries
+msgid "Has Unreconciled Entries"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_appointment_info__id
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_info__id
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_line_wizard__id
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_wizard__id
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_working_schedule__id
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__id
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_sessions_info__id
+msgid "ID"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__im_status
+msgid "IM Status"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__message_needaction
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__message_unread
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__message_has_error
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__team_id
+msgid ""
+"If set, this Sales Team will be used for sales and assignments related to "
+"this partner"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__is_blacklisted
+msgid ""
+"If the email address is on the blacklist, the contact won't receive mass "
+"mailing anymore, from any list"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__phone_sanitized_blacklisted
+msgid ""
+"If the sanitized phone number is on the blacklist, the contact won't receive"
+" mass mailing sms anymore, from any list"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__image_1920
+msgid "Image"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__image_1024
+msgid "Image 1024"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__image_128
+msgid "Image 128"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__image_256
+msgid "Image 256"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__image_512
+msgid "Image 512"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__mobile_blacklisted
+msgid ""
+"Indicates if a blacklisted sanitized phone number is a mobile number. Helps "
+"distinguish which number is blacklisted             when there is both a "
+"mobile and phone field in a model."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__phone_blacklisted
+msgid ""
+"Indicates if a blacklisted sanitized phone number is a phone number. Helps "
+"distinguish which number is blacklisted             when there is both a "
+"mobile and phone field in a model."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__industry_id
+msgid "Industry"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__invoice_warn
+msgid "Invoice"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__type
+msgid ""
+"Invoice & Delivery addresses are used in sales orders. Private addresses are"
+" only visible by authorized users."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__invoice_ids
+msgid "Invoices"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_sessions_info__is_end
+msgid "Is End"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__is_company
+msgid "Is a Company"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__function
+msgid "Job Position"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__journal_item_count
+msgid "Journal Items"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__lang
+msgid "Language"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_appointment_info____last_update
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_info____last_update
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_line_wizard____last_update
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_wizard____last_update
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_working_schedule____last_update
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info____last_update
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_sessions_info____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_appointment_info__write_uid
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_info__write_uid
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_line_wizard__write_uid
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_wizard__write_uid
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_working_schedule__write_uid
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__write_uid
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_sessions_info__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_appointment_info__write_date
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_info__write_date
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_line_wizard__write_date
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_wizard__write_date
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_working_schedule__write_date
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__write_date
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_sessions_info__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__last_time_entries_checked
+msgid ""
+"Last time the invoices & payments matching was performed for this partner. "
+"It is set either if there's not at least an unreconciled debit and an "
+"unreconciled credit or if you click the \"Done\" button."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__last_time_entries_checked
+msgid "Latest Invoices & Payments Matching Date"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__image_medium
+msgid "Medium-sized image"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__invoice_warn_msg
+msgid "Message for Invoice"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__sale_warn_msg
+msgid "Message for Sales Order"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__mobile
+msgid "Mobile"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__payment_next_action_date
+msgid "Next Action Date"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__email_normalized
+msgid "Normalized Email"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__comment
+msgid "Notes"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__ocn_token
+msgid "OCN Token"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__online_partner_information
+msgid "Online Partner Information"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__payment_responsible_id
+msgid ""
+"Optionally you can assign a user to this field, which will make him "
+"responsible for the action."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__parent_name
+msgid "Parent name"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__contract_ids
+msgid "Partner Contracts"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__same_vat_partner_id
+msgid "Partner with same Tax ID"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__partner_id
+msgid "Partner-related data of the patient"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.appointment_info_form_view
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.patient_info_form_view
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.sessions_info_search_view
+msgid "Patient"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.actions.act_window,name:cubes_beauty_center.action_patient_info
+#: model:ir.ui.menu,name:cubes_beauty_center.main_menu_patient
+msgid "Patients"
+msgstr "الحالات"
+
+#. module: cubes_beauty_center
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.patient_info_tree_view
+msgid "Patients Information"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__debit_limit
+msgid "Payable Limit"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__payment_token_count
+msgid "Payment Token Count"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__payment_token_ids
+msgid "Payment Tokens"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__phone
+msgid "Phone"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__phone_sanitized_blacklisted
+msgid "Phone Blacklisted"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__phone_mobile_search
+msgid "Phone/Mobile"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__property_product_pricelist
+msgid "Pricelist"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__ref
+msgid "Reference"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__parent_id
+msgid "Related Company"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__partner_id
+msgid "Related Partner"
+msgstr "الاسم في الفاتورة"
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__employee_ids
+msgid "Related employees based on their private address"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__rh
+msgid "Rh"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_sessions_info__sale_order_id
+msgid "Sale Order"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__sale_order_count
+msgid "Sale Order Count"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model,name:cubes_beauty_center.model_sale_order
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__sale_order_ids
+msgid "Sales Order"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__team_id
+msgid "Sales Team"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__sale_warn
+msgid "Sales Warnings"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__user_id
+msgid "Salesperson"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__phone_sanitized
+msgid "Sanitized Number"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__invoice_warn
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__sale_warn
+msgid ""
+"Selecting the \"Warning\" option will notify user with the message, "
+"Selecting \"Blocking Message\" will throw an exception with the message and "
+"block the flow. The Message has to be written in the next field."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__self
+msgid "Self"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.actions.act_window,name:cubes_beauty_center.sessions_info_act_window
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.sessions_info_form_view
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.sessions_info_search_view
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.sessions_info_tree_view
+msgid "Sessions"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model,name:cubes_beauty_center.model_sessions_info
+msgid "Sessions Info"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__sex
+msgid "Sex"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__partner_share
+msgid "Share Partner"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__signup_expiration
+msgid "Signup Expiration"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__signup_token
+msgid "Signup Token"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__signup_type
+msgid "Signup Token Type"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__signup_valid
+msgid "Signup Token is Valid"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__signup_url
+msgid "Signup URL"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_appointment_info__start
+msgid "Start"
+msgstr "البداية"
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_appointment_info__start_date
+msgid "Start Date"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_appointment_info__start
+msgid "Start date of an event, without time for full days events"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.appointment_info_form_view
+msgid "Starting at"
+msgstr "تاريخ البداية"
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__state_id
+msgid "State"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_info__state_working_schedual
+msgid "State Working Schedual"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_appointment_info__stop
+msgid "Stop"
+msgstr "النهاية"
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__street
+msgid "Street"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__street2
+msgid "Street2"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__supplier_rank
+msgid "Supplier Rank"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__category_id
+msgid "Tags"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__vat
+msgid "Tax ID"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__vat
+msgid ""
+"The Tax Identification Number. Complete it if the contact is subjected to "
+"government taxes. Used in some legal statements."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__payment_next_action_date
+msgid "The date before which no action should be taken."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__property_account_position_id
+msgid ""
+"The fiscal position determines the taxes/accounts used for this contact."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__user_id
+msgid "The internal user in charge of this contact."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__has_unreconciled_entries
+msgid ""
+"The partner has at least one unreconciled debit and credit since last time "
+"the invoices & payments matching was performed."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model_terms:ir.actions.act_window,help:cubes_beauty_center.sessions_info_act_window
+msgid "There is no examples click here to add new Sessions."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model_terms:ir.actions.act_window,help:cubes_beauty_center.action_appointment_info
+#: model_terms:ir.actions.act_window,help:cubes_beauty_center.action_doctor_info
+#: model_terms:ir.actions.act_window,help:cubes_beauty_center.action_patient_info
+msgid "There is nothing yet!"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__property_account_payable_id
+msgid ""
+"This account will be used instead of the default one as the payable account "
+"for the current partner"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__property_account_receivable_id
+msgid ""
+"This account will be used instead of the default one as the receivable "
+"account for the current partner"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__email_normalized
+msgid ""
+"This field is used to search on email address as the primary email field can"
+" contain more than strictly an email address."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__property_supplier_payment_term_id
+msgid ""
+"This payment term will be used instead of the default one for purchase "
+"orders and vendor bills"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__property_payment_term_id
+msgid ""
+"This payment term will be used instead of the default one for sales orders "
+"and customer invoices"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__property_product_pricelist
+msgid ""
+"This pricelist will be used, instead of the default one, for sales to the "
+"current partner"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__tz
+msgid "Timezone"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__tz_offset
+msgid "Timezone offset"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__title
+msgid "Title"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__total_due
+msgid "Total Due"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__total_invoiced
+msgid "Total Invoiced"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__total_overdue
+msgid "Total Overdue"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__debit
+msgid "Total Payable"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__credit
+msgid "Total Receivable"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__credit
+msgid "Total amount this customer owes you."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__debit
+msgid "Total amount you have to pay to this vendor."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__unpaid_invoices
+msgid "Unpaid Invoices"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__unreconciled_aml_ids
+msgid "Unreconciled Aml"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__barcode
+msgid "Use a barcode to identify this contact."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__ocn_token
+msgid "Used for sending notification to registered devices"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__user_ids
+msgid "Users"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__currency_id
+msgid "Utility field to express amount currency"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__property_supplier_payment_term_id
+msgid "Vendor Payment Terms"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__website
+msgid "Website Link"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,help:cubes_beauty_center.field_patient_info__tz
+msgid ""
+"When printing documents and exporting/importing data, time values are computed according to this timezone.\n"
+"If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
+"Anywhere else, time values are computed according to the time offset of your web client."
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_wizard__working_schedual_line_ids
+msgid "Working Schedual Line"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__zip
+msgid "Zip"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.patient_info_form_view
+msgid "appointment"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model,name:cubes_beauty_center.model_appointment_info
+msgid "appointment.info"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model,name:cubes_beauty_center.model_doctor_info
+msgid "doctor.info"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model,name:cubes_beauty_center.model_doctor_schedule_line_wizard
+msgid "doctor.schedule.line.wizard"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model,name:cubes_beauty_center.model_doctor_schedule_wizard
+msgid "doctor.schedule.wizard"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model,name:cubes_beauty_center.model_doctor_working_schedule
+msgid "doctor.working.schedule"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model,name:cubes_beauty_center.model_patient_info
+msgid "patient.info"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__patient_info__sex__f
+msgid "أنثى"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_working_schedule__name
+msgid "اسم"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__doctor_schedule_line_wizard__dayofweek__6
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__doctor_working_schedule__dayofweek__6
+msgid "الأحد"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.patient_info_form_view
+msgid "الأسم"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__doctor_schedule_line_wizard__dayofweek__0
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__doctor_working_schedule__dayofweek__0
+msgid "الاثنين"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__doctor_schedule_line_wizard__dayofweek__2
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__doctor_working_schedule__dayofweek__2
+msgid "الاربعاء"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_info__name
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__name
+msgid "الاسم"
+msgstr "الاسم"
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_working_schedule__working_date
+msgid "التاريخ"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_wizard__date_to
+msgid "التاريخ الى"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_wizard__date_from
+msgid "التاريخ من"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_info__speciality
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.doctor_info_form_view
+msgid "التخصص"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__doctor_schedule_line_wizard__dayofweek__1
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__doctor_working_schedule__dayofweek__1
+msgid "الثلثاء"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_sale_order__count_sessions
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_sale_order__sessions_ids
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.cubes_sale_order_form_inherit
+msgid "الجلسات"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__doctor_schedule_line_wizard__dayofweek__4
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__doctor_working_schedule__dayofweek__4
+msgid "الجمعة"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_appointment_info__patient_id
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_sale_order__patient_id
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_sessions_info__patient_id
+msgid "الحالة"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_working_schedule__state
+msgid "الحجز"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__doctor_schedule_line_wizard__dayofweek__3
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__doctor_working_schedule__dayofweek__3
+msgid "الخميس"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_appointment_info__doctor_id
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_sale_order__doctor_id
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_sessions_info__doctor_id
+msgid "الدكتور المسؤول"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_line_wizard__hour_to
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_working_schedule__hour_to
+msgid "الساعة الى"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_line_wizard__hour_from
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_working_schedule__hour_from
+msgid "الساعة من"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__doctor_schedule_line_wizard__dayofweek__5
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__doctor_working_schedule__dayofweek__5
+msgid "السبت"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_hr_employee__employee_category
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.view_employee_form_inherited_x1
+msgid "المسمى الوظيفي"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__appointment_ids
+msgid "المواعيد"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_info__appointment_ids
+msgid "المواعيد المحجوزة"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_info__employee_id
+msgid "الموظف"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.doctor_schedule_wizard_form_wizard
+msgid "انشاء جدول دوام"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.doctor_info_form_view
+msgid "انشاء جدول دوام دكتور"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__date_of_birth
+msgid "تاريخ الميلاد"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_appointment_info__appointment_info
+msgid "تفاصيل"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.doctor_info_form_view
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.doctor_schedule_wizard_form_wizard
+msgid "جدول الدوام"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_info__working_schedule_ids
+msgid "جدول مواعيد العمل"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__hr_employee__employee_category__doctor
+msgid "دكتور/ة"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__patient_info__sex__m
+msgid "ذكر"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__age
+msgid "عمر الحالة"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__doctor_working_schedule__state__not_available
+msgid "غير متاح"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__blood_type
+msgid "فصيلة الدم"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__doctor_working_schedule__state__available
+msgid "متاح"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.patient_info_form_view
+msgid "معلومات شخصية"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_patient_info__medical_info
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.appointment_info_form_view
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.patient_info_form_view
+msgid "معلومات طبية"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__hr_employee__employee_category__nurse
+msgid "ممرض/ة"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model_terms:ir.ui.view,arch_db:cubes_beauty_center.doctor_info_form_view
+msgid "مواعيد محجوزة"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields.selection,name:cubes_beauty_center.selection__hr_employee__employee_category__receptionist
+msgid "موظف/ة استقبال"
+msgstr ""
+
+#. module: cubes_beauty_center
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_schedule_line_wizard__dayofweek
+#: model:ir.model.fields,field_description:cubes_beauty_center.field_doctor_working_schedule__dayofweek
+msgid "يوم الاسبوع"
+msgstr ""

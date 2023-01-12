@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="patient_info_form_view" model="ir.ui.view">
+        <field name="name">patient.info.form.view</field>
+        <field name="model">patient.info</field>
+        <field name="arch" type="xml">
+            <form string="Patient">
+                <sheet>
+                    <div class="oe_left" style="width: 500px;">
+                        <h1>
+                            <field name="name" placeholder="Full Name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <field name="partner_id"/>
+                    </group>
+
+                    <group string="Private Information">
+                        <group>
+                            <field name="date_of_birth"/>
+                        </group>
+                        <group>
+                            <field name="sex"/>
+                            <field name="age" readonly="1"/>
+                        </group>
+                    </group>
+                    <group string="Medical Information">
+<!--                        <group>-->
+<!--                            <field name="medical_info"/>-->
+<!--                        </group>-->
+                        <group>
+                            <field name="blood_type"/>
+                            <field name="rh"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Appointment">
+                            <field name="appointment_ids" readonly="1">
+                                <tree editable="bottom">
+                                    <field name="name"/>
+                                    <field name="doctor_id"/>
+<!--                                    <field name="start_date"/>-->
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="patient_info_tree_view" model="ir.ui.view">
+        <field name="name">patient.info.tree.view</field>
+        <field name="model">patient.info</field>
+        <field name="arch" type="xml">
+            <tree string="Patients Information">
+                <field name="name"/>
+                <field name="date_of_birth"/>
+                <field name="age"/>
+                <field name="sex"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_patient_info" model="ir.actions.act_window">
+        <field name="name">Patients</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">patient.info</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                There is nothing yet!
+            </p>
+        </field>
+    </record>
+
+</odoo>
+

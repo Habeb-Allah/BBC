@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="cubes_sale_order_form_inherit" model="ir.ui.view">
+            <field name="name">cubes.sale.order.view.form</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+
+                <div name="button_box" position="inside">
+                    <button class="oe_stat_button" type="object" name="action_view_sessions"
+                        icon="fa-pencil-square-o">
+                        <field string="Sessions" name="count_sessions" widget="statinfo"/>
+                    </button>
+                </div>
+
+
+                <field name="partner_id" position="attributes">
+                    <attribute name="readonly">1</attribute>
+                    <attribute name="force_save">1</attribute>
+                </field>
+
+                <xpath expr="//field[@name='partner_id']" position="before">
+                    <field name="patient_id"/>
+                </xpath>
+
+
+                <xpath expr="//field[@name='partner_shipping_id']" position="after">
+                    <field name="appointment_id"/>
+                    <field name="doctor_id"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
