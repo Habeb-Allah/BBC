@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="doctor_info_form_view" model="ir.ui.view">
+        <field name="name">doctor.info.form.view</field>
+        <field name="model">doctor.info</field>
+        <field name="arch" type="xml">
+            <form string="Doctor">
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="get_doctor_working_schedual_wizard_view"
+                                string="Create Table Attendances"
+                                type="object"
+                                class="oe_stat_button"
+                                icon="fa-clock-o">
+                        </button>
+                    </div>
+                    <div class="oe_left" style="width: 500px;">
+                        <h1>
+                            <field name="name"/>
+                        </h1>
+                        <h1>
+                            <field name="speciality" placeholder="Spshalist"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="employee_id"/>
+                            <field name="state_working_schedual" invisible="1"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Appointment">
+                            <field name="appointment_ids" readonly="1">
+                                <tree>
+                                    <field name="name"/>
+                                    <field name="appointment_info"/>
+                                    <field name="patient_id"/>
+<!--                                    <field name="appointment_date"/>-->
+                                </tree>
+                            </field>
+                        </page>
+                        <page string="Table Attendances">
+                            <field name="working_schedule_ids" >
+                                <tree default_order='working_date' editable="top" create="0" delete="1">
+<!--                                    <field name="name" />-->
+                                    <field name="dayofweek"/>
+                                    <field name="working_date"/>
+                                    <field name="hour_from" widget="float_time"/>
+                                    <field name="hour_to" widget="float_time"/>
+                                    <field name="state" widget="badge" decoration-info="state == 'not_available'"
+                                           decoration-success="state == 'available'"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+    <record id="doctor_info_tree_view" model="ir.ui.view">
+        <field name="name">doctor.info.tree.view</field>
+        <field name="model">doctor.info</field>
+        <field name="arch" type="xml">
+            <tree string="Doctors Information">
+                <field name="name"/>
+                <field name="speciality"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_doctor_info" model="ir.actions.act_window">
+        <field name="name">Doctors</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">doctor.info</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                There is nothing yet!
+            </p>
+        </field>
+    </record>
+
+</odoo>
+

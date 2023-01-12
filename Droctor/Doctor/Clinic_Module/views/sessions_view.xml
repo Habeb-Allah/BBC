@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="sessions_info_form_view" model="ir.ui.view">
+            <field name="name">sessions.info.form.view</field>
+            <field name="model">sessions.info</field>
+            <field name="arch" type="xml">
+                <form string="Sessions">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="patient_id" readonly="1"/>
+                                <field name="appointment_id" readonly="1"/>
+                                <field name="doctor_id" readonly="1"/>
+                            </group>
+                            <group>
+                                <field name="date_sessions" required="1"/>
+                                <field name="is_end" widget="boolean_toggle"/>
+                                <field name="sale_order_id" invisible="1"/>
+                            </group>
+                        </group>
+                        <group>
+                            <field name="description_sessions"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="sessions_info_tree_view" model="ir.ui.view">
+            <field name="name">sessions.info.tree.view</field>
+            <field name="model">sessions.info</field>
+            <field name="arch" type="xml">
+                <tree string="Sessions" decoration-info="is_end==False" decoration-success="is_end==True">
+                    <field name="date_sessions"/>
+                    <field name="patient_id"/>
+                    <field name="appointment_id"/>
+                    <field name="doctor_id"/>
+                    <field name="is_end"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="sessions_info_search_view" model="ir.ui.view">
+            <field name="name">sessions.info.search.view</field>
+            <field name="model">sessions.info</field>
+            <field name="arch" type="xml">
+                <search string="Sessions">
+                    <field name="patient_id"/>
+                    <field name="appointment_id"/>
+                    <field name="doctor_id" />
+                    <separator/>
+                    <group expand="1" string="Group By">
+                        <filter string="Patient" name="patient_id" domain="[]"
+                                context="{'group_by':'patient_id'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+        <record id="sessions_info_act_window" model="ir.actions.act_window">
+            <field name="name">Sessions</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">sessions.info</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    There is no examples click here to add new Sessions.
+                </p>
+            </field>
+        </record>
+
+        <!--        <menuitem name="Sessions" id="sessions_info_menu" parent="your_root_menu" action="sessions_info_act_window"/>-->
+
+    </data>
+</odoo>

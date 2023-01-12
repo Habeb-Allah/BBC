@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <menuitem
+            id="main_menu_beauty_center"
+            name="Clinic"
+            web_icon="cubes_beauty_center,static/description/icon.png"
+    />
+
+    <menuitem
+            id="main_menu_appointment"
+            name="Appointments"
+            parent="main_menu_beauty_center"
+            action="action_appointment_info"
+            groups="group_appointment"
+            sequence='1'
+    />
+    <menuitem
+            id="main_menu_doctor"
+            name="Doctors"
+            parent="main_menu_beauty_center"
+            action="action_doctor_info"
+            groups="group_patient"
+            sequence='2'
+    />
+
+
+    <menuitem
+            id="main_menu_patient"
+            name="Patients"
+            parent="main_menu_beauty_center"
+            action="action_patient_info"
+            groups="group_patient"
+            sequence='3'
+    />
+
+     <menuitem
+            id="main_menu_dental_record"
+            name="Dental record"
+            parent="main_menu_beauty_center"
+            groups="group_doctor"
+            action="action_dental_record"
+            sequence='4'
+    />
+</openerp>

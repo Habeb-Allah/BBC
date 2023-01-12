@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="appointment_info_form_view" model="ir.ui.view">
+        <field name="name">appointment.info.form.view</field>
+        <field name="model">appointment.info</field>
+        <field name="arch" type="xml">
+            <form string="Patient">
+                <sheet>
+                    <div>
+                        <h1>
+                            <field name="name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group string="">
+                            <field name="doctor_id" options="{'no_create': True, 'no_create_edit':True}"/>
+                        </group>
+                        <group>
+                            <field name="patient_id" options="{'no_create': True, 'no_create_edit':True}"/>
+                        </group>
+                        <group>
+
+                            <field name="start_date" string="Starting at"
+                                   attrs="{'required': [('allday','=',True)], 'invisible': [('allday','=',False)]}"
+                                   force_save="1"/>
+                            <field name="stop_date" string="Ending at"
+                                   attrs="{'required': [('allday','=',True)],'invisible': [('allday','=',False)]}"
+                                   force_save="1"/>
+
+                            <field name="start" string="Starting at"
+                                   attrs="{'required': [('allday','=',False)], 'invisible': [('allday','=',True)]}"/>
+                            <field name="stop" string="Ending At" attrs="{'invisible': [('allday','=',True)]}"/>
+                            <label for="duration" attrs="{'invisible': [('allday','=',True)]}"/>
+                            <div attrs="{'invisible': [('allday','=',True)]}">
+                                <field name="duration" widget="float_time" string="Duration" class="oe_inline"
+                                       attrs="{'readonly': [('id', '!=', False)]}"/>
+                                <span>hours</span>
+                            </div>
+                            <field name="allday" force_save="1"/>
+
+                        </group>
+                    </group>
+                    <group string="Medical Information">
+                        <field name="appointment_info"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="appointment_info_tree_view" model="ir.ui.view">
+        <field name="name">appointment.info.tree.view</field>
+        <field name="model">appointment.info</field>
+        <field name="arch" type="xml">
+            <tree string="Appointments Information">
+                <field name="name"/>
+                <field name="doctor_id"/>
+                <field name="patient_id"/>
+                <field name="start"/>
+                <field name="stop"/>
+                <field name="duration" width="100px"/>
+
+            </tree>
+        </field>
+    </record>
+
+    <record id="appointment_info_calendar_view" model="ir.ui.view">
+        <field name="name">appointment.info.calendar.view</field>
+        <field name="model">appointment.info</field>
+        <field name="priority" eval="2"/>
+        <field name="arch" type="xml">
+            <calendar string="Appointments"
+                      date_start="start" date_stop="stop" date_delay="duration" all_day="allday"
+                      event_open_popup="true"
+                      mode="week"
+                      color="doctor_id"
+                      quick_add="False">
+                <field name="doctor_id"/>
+                <field name="patient_id"/>
+                <field name="appointment_info"/>
+            </calendar>
+        </field>
+    </record>
+
+
+    <record id="action_appointment_info" model="ir.actions.act_window">
+        <field name="name">Appointments</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">appointment.info</field>
+        <field name="view_mode">calendar,tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                There is nothing yet!
+            </p>
+        </field>
+    </record>
+
+</odoo>
+
