@@ -6,7 +6,7 @@
     "version": "15.0.0.0",
     "summary": "Clinic Pations",
     "author": "Amin Osman",
-    "depends": ["hr", "sale"],
+    "depends": ['hr', 'sale','account'],
     "data": [
         'security/security.xml',
         'security/ir.model.access.csv',
