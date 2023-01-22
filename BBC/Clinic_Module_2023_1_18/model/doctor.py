@@ -9,10 +9,10 @@ class DoctorCard(models.Model):
     employee_id = fields.Many2one('hr.employee',string="Doctor", domain="[('employee_category', '=', 'doctor')]")
 
     name = fields.Char(related='employee_id.name', string="Name", store=True)
-    speciality = fields.Char(string="Spshalist")
+    speciality = fields.Char(string="specialist")
 
     appointment_ids = fields.One2many('appointment.info', 'doctor_id', string="Appointments", readonly=True)
-    working_schedule_ids = fields.One2many('doctor.working.schedule', 'doctor_id', string="Table Doctor Attendances")
+    working_schedule_ids = fields.One2many('doctor.working.schedule', 'doctor_id', string="Doctor Attendances Table")
 
     state_working_schedual = fields.Boolean(compute='check_availability_state')
 

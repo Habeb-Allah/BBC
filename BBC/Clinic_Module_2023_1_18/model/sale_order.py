@@ -16,6 +16,7 @@ class SaleOrder(models.Model):
     sessions_ids = fields.One2many('sessions.info', inverse_name='sale_order_id', string='Sessions')
     count_sessions = fields.Integer(string='Sessions', compute='_compute_sessions')
 
+
     @api.onchange('patient_id')
     def _onchange_patient_id(self):
         if self.patient_id and self.patient_id.partner_id:
@@ -30,7 +31,7 @@ class SaleOrder(models.Model):
 
     def action_view_sessions(self):
         self.ensure_one()
-        action = self.env["ir.actions.actions"]._for_xml_id("cubes_beauty_center.sessions_info_act_window")
+        action = self.env["ir.actions.actions"]._for_xml_id("Clinic_Module_2023_1_18.sessions_info_act_window")
         action['context'] = {
             'default_patient_id': self.patient_id.id,
             'default_appointment_id': self.appointment_id.id,

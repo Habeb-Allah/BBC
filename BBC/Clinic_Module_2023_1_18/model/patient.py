@@ -11,7 +11,7 @@ class PatientCard(models.Model):
 
     name = fields.Char(string="Name")
     date_of_birth = fields.Date(string="Brith Date")
-    sex = fields.Selection([('m', 'Mail'), ('f', 'Fmail')], string="Sex")
+    sex = fields.Selection([('m', 'Male'), ('f', 'Female')], string="Sex")
     age = fields.Char(compute='onchange_age', string="Patient age", store=True)
 
 
@@ -20,9 +20,11 @@ class PatientCard(models.Model):
 
     appointment_ids = fields.One2many('appointment.info','patient_id',string="Appointment")
 
+    dental_record_ids = fields.One2many('dental.record', 'patient_id', string="Procedure")
+
 
     partner_id = fields.Many2one('res.partner', required=True, ondelete='restrict', auto_join=True, index=True,
-                                 string='Related Partner', help='Partner-related data of the patient')
+                                 string='Name In English')
 
 
     @api.depends('date_of_birth')

@@ -8,7 +8,6 @@ access_doctor_schedule_wizard,doctor.schedule.wizard,model_doctor_schedule_wizar
 access_doctor_schedule_line_wizard,doctor.schedule.line.wizard,model_doctor_schedule_line_wizard,,1,1,1,1
 access_sessions_info,sessions.info,model_sessions_info,group_doctor,1,1,1,1
 access_dental_record,dental.record,model_dental_record,group_doctor,1,1,1,1
-
 access_doctor_appointment,doctor.info,model_doctor_info,group_appointment,1,0,0,0
 access_appointment,appointment.info,model_appointment_info,group_doctor,1,0,1,0
 access_patient_dental,patient.info,model_patient_info,group_doctor,1,0,0,0

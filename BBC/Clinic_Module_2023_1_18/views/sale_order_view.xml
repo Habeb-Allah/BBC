@@ -11,7 +11,7 @@
                 <div name="button_box" position="inside">
                     <button class="oe_stat_button" type="object" name="action_view_sessions"
                         icon="fa-pencil-square-o">
-                        <field string="Sessions" name="count_sessions" widget="statinfo"/>
+                        <field string="الجلسات" name="count_sessions" widget="statinfo"/>
                     </button>
                 </div>
 
@@ -24,8 +24,6 @@
                 <xpath expr="//field[@name='partner_id']" position="before">
                     <field name="patient_id"/>
                 </xpath>
-
-
                 <xpath expr="//field[@name='partner_shipping_id']" position="after">
                     <field name="appointment_id"/>
                     <field name="doctor_id"/>

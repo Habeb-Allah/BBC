@@ -2,12 +2,12 @@
 # Part of BrowseInfo. See LICENSE file for full copyright and licensing details.
 
 {
-    "name": "Clinic",
+    'name': 'The Clinic',
     "version": "15.0.0.0",
     "summary": "Clinic Pations",
-    "author": "Amin Osman",
-    "depends": ['hr', 'sale','account'],
-    "data": [
+    "author": "Habeb-Allah Ahmed",
+    'depends': ['hr', 'sale_management','account_accountant'],
+    'data': [
         'security/security.xml',
         'security/ir.model.access.csv',
         'views/hr_edited_view.xml',
@@ -21,9 +21,11 @@
         'views/menu_items.xml',
         'wizard/doctor_working_schedual_view.xml'
     ],
-    "installable": True,
+    'images': ['static/description/icon.png'],
+
+    'installable': True,
     "application": True,
     "auto_install": False,
-    "images": ["static/description/icon.png"],
+
 
 }
